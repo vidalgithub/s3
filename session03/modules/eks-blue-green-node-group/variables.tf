@@ -14,6 +14,7 @@ variable "common_tags" {
   }
 }
 
+# CREATE TWO DIFFERENT VARIABLES 'eks_version'; ONE FOR BLUE AND ONE FOR GREEN.
 variable "eks_version" {
   type    = string
   default = "1.22"
